@@ -10,7 +10,7 @@ class Test001Login:
     username = ReadConfig.getUserName()
     password = ReadConfig.getPassword()
 
-    logger = LogGen.Loggen()
+    logger = LogGen.loggen()
 
     def test_HomePage(self, setup):
 
